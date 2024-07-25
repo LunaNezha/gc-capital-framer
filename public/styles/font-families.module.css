@@ -1,0 +1,81 @@
+/* =================== Bowlby One =================== */
+@font-face {
+  font-family: "Bowlby One";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/bowlby-one/BowlbyOne-Regular.ttf") format("truetype");
+}
+
+/* =================== AzeretMono =================== */
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Azeret Mono";
+  src: url("../fonts/azeret-mono/AzeretMono-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: bold;
+  font-display: swap;
+}

@@ -1,0 +1,58 @@
+@import "@flaticon/flaticon-uicons/css/all/all";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-x-hidden font-bowlby-one;
+  }
+
+  i {
+    @apply flex;
+  }
+
+  input {
+    @apply outline-none focus:outline-none focus:ring-0;
+  }
+}
+
+.notistack-MuiContent-error,
+.notistack-MuiContent-info,
+.notistack-MuiContent-warning,
+.notistack-MuiContent-success {
+  @apply flex justify-between gap-4 !rounded-xl border border-gray-200 !bg-white !px-5 !py-4 font-azeret-mono !text-gray-900 !shadow-lg;
+
+  #notistack-snackbar {
+    @apply flex items-center gap-2 p-0;
+  }
+
+  div:last-child {
+    @apply m-0 p-0;
+
+    button {
+      @apply text-rose-400 transition-all;
+
+      &:hover {
+        @apply text-rose-500 transition-all;
+      }
+    }
+  }
+}
+
+.loader-wrapper {
+  @apply fixed inset-0 z-[100] flex h-full w-full items-center justify-center bg-gray-950 bg-opacity-60 duration-200 ease-in-out;
+
+  > div {
+    @apply flex items-center justify-center rounded-xl border bg-white pl-6 pr-2 py-4 shadow-2xl;
+
+    svg {
+      @apply flex w-20 h-auto justify-center items-center;
+    }
+
+    span {
+      @apply font-bold text-sm text-gray-900;
+    }
+  }
+}
