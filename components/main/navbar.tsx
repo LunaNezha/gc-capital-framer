@@ -43,8 +43,7 @@ const Navbar = (props: Props) => {
       className={cn(
         isScrolled &&
           "border border-white/10 bg-black/60 py-4 backdrop-blur-[6px] md:py-5",
-        !isScrolled &&
-          "border-0 border-transparent bg-transparent",
+        !isScrolled && "border-0 border-transparent bg-transparent",
         "fixed inset-x-0 top-0 z-40 flex items-center justify-between px-6 py-4 transition-all duration-300 ease-in-out md:justify-center md:px-10 md:py-6",
       )}
     >
@@ -52,8 +51,8 @@ const Navbar = (props: Props) => {
       <div className="flex items-center justify-start gap-x-3 text-white md:hidden lg:gap-x-4">
         <Image src={Logo} alt="logo image" className="size-10 sm:size-12" />
 
-        <div className="font-azeret-mono flex-col sm:flex">
-          <h3 className="text-sm sm:text-base font-bold">GC Capital</h3>
+        <div className="flex-col font-azeret-mono sm:flex">
+          <h3 className="text-sm font-bold sm:text-base">GC Capital</h3>
           <h6 className="text-xs opacity-70">Golden Carrot Capital</h6>
         </div>
       </div>
@@ -66,7 +65,7 @@ const Navbar = (props: Props) => {
               <Link
                 href={item.href}
                 className={cn(
-                  "group-hover:text-broom-400 font-bowlby-one tracking-wide text-white transition-all duration-200 ease-in md:text-sm lg:text-base xl:text-lg",
+                  "font-bowlby-one tracking-wide text-white transition-all duration-200 ease-in group-hover:text-broom-400 md:text-sm lg:text-base xl:text-lg",
                   pathname === item.href && "text-broom-400",
                 )}
               >
@@ -83,7 +82,7 @@ const Navbar = (props: Props) => {
         onClick={() => setIsSidebarOpen(true)}
         className="md:hidden"
       >
-        <i className="fi fi-rr-bars-staggered hover:text-broom-400 text-2xl text-white duration-300 sm:text-3xl"></i>
+        <i className="fi fi-rr-bars-staggered text-2xl text-white duration-300 hover:text-broom-400 sm:text-3xl"></i>
       </button>
     </div>
   );
